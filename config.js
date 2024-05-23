@@ -3,8 +3,8 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""
-global.email ="astromedia0010@gmail.com"
-global.location="Astro,World"
+global.email ="luciferdevilyt007@gmail.com"
+global.location="Kolkata,india"
 
 
 global.mongodb= process.env.MONGODB_URI || ""
@@ -13,17 +13,17 @@ global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github=process.env.GITHUB|| "https://github.com/Astropeda/Asta-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z" ; 
+global.github=process.env.GITHUB|| "https://github.com/luciyaaa/Asta-Md";
+global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaPGtgsj3QEwEjpBXT4Rv0z";
+global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaPGt3QEwEjgsupBXT4Rv0z" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/JMsAFRD.jpeg" ;
-global.caption = process.env.CAPTION || global.caption || "αѕтα-м∂ 2024" 
+global.caption = process.env.CAPTION || global.caption || "Luciya-md 2024" 
 global.BUTTONS = process.env.BUTTONS || process.env.MENU_BTN || "1";
 
 
 global.devs = "2348039607375"
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2348039607375";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348039607375";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "916307965352";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "916307965352";
 
 
 
@@ -51,8 +51,8 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2348039607375";
 
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "2348039607375";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2348039607375";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "916307965352";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "916307965352";
 
 global.api_smd = "https://api-amd.onrender.com"
 global.scan = "https://suhail-md-vtsf.onrender.com";
@@ -65,15 +65,15 @@ module.exports = {
 
   menu: process.env.MENU || "v1", 
 
-  HANDLERS: process.env.PREFIX  || "/",
+  HANDLERS: process.env.PREFIX  || "#",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "3.0.0",
-  caption : global.caption || "αѕтα-м∂ 2024" , 
+  caption : global.caption || "Luciya-md 2024" , 
  
-  author : process.env.PACK_AUTHER|| "αѕтяσ",
-  packname: process.env.PACK_NAME || "αѕтяσ",
-  botname : process.env.BOT_NAME  || "ᴀsᴛᴀ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "αѕтяσ",
+  author : process.env.PACK_AUTHER|| "Luciya",
+  packname: process.env.PACK_NAME || "Lucifer_devil",
+  botname : process.env.BOT_NAME  || "Luciya-md",
+  ownername:process.env.OWNER_NAME|| "Luciya",
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
