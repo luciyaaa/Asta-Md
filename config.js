@@ -21,7 +21,7 @@ global.caption = process.env.CAPTION || global.caption || "Luciya-md 2024"
 global.BUTTONS = process.env.BUTTONS || process.env.MENU_BTN || "1";
 
 
-global.devs = "2348039607375"
+global.devs = "916307965352"
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "916307965352";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "916307965352";
 
@@ -29,10 +29,10 @@ global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]
 
 
 //========================= [ BOT SETTINGS ] =========================\\
-global.style = process.env.STYLE   || '2'
-global.flush = process.env.FLUSH   || "false"; 
-global.gdbye = process.env.GOODBYE || "false"; 
-global.wlcm  = process.env.WELCOME || "false";
+global.style = process.env.STYLE   || '10'
+global.flush = process.env.FLUSH   || "true"; 
+global.gdbye = process.env.GOODBYE || "true"; 
+global.wlcm  = process.env.WELCOME || "true";
 
 global.warncount = process.env.WARN_COUNT || 3
 global.disablepm = process.env.DISABLE_PM || "false"
@@ -46,7 +46,7 @@ global.waPresence= process.env.WAPRESENCE ||  "online" ;
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2348039607375";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "916307965352";
 
 
 global.read_status = process.env.AUTO_READ_STATUS || "false"
@@ -63,7 +63,7 @@ global.SESSION_ID = process.env.SESSION_ID ||  "Asta;;;eyJub2lzZUtleSI6eyJwcml2Y
 
 module.exports = {
 
-  menu: process.env.MENU || "v1", 
+  menu: process.env.MENU || "v7", 
 
   HANDLERS: process.env.PREFIX  || "#",
   BRANCH  : process.env.BRANCH  || "main",
@@ -73,7 +73,7 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "Luciya",
   packname: process.env.PACK_NAME || "Lucifer_devil",
   botname : process.env.BOT_NAME  || "Luciya-md",
-  ownername:process.env.OWNER_NAME|| "Luciya",
+  ownername:process.env.OWNER_NAME|| "LUCIFER DEVIL👿👿😈😈",
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
@@ -82,7 +82,7 @@ module.exports = {
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
   LANG: ( process.env.THEME ||  "main"  ).toUpperCase(),
 };
 global.ELEVENLAB_API_KEY = process.env.ELEVENLAB_API_KEY || "";
